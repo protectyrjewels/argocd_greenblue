@@ -31,3 +31,8 @@ kubectl argo rollouts get experiment <EXPERIMENT-NAME> --watch
 ```bash
 kubectl argo rollouts set image <ROLLOUT-NAME> "*=argoproj/rollouts-demo:yellow"
 ```
+
+4. To access a nice looking dashboard, run:
+```bash
+kubectl argo rollouts dashboard
+```
